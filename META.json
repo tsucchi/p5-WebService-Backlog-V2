@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Web API client for Backlog::V2",
    "author" : [
-      "Takuya Tsuchida <takuya.tsuchida@gmail.com>"
+      "Takuya Tsuchida <tsucchi@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.4.1, CPAN::Meta::Converter version 2.141170",
@@ -42,7 +42,11 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "Furl" : "0",
+            "JSON" : "0",
+            "Mouse" : "0",
+            "URI" : "0",
+            "perl" : "5.008005"
          }
       },
       "test" : {
@@ -52,5 +56,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tsucchi/p5-WebService-Backlog-V2/issues"
+      },
+      "homepage" : "https://github.com/tsucchi/p5-WebService-Backlog-V2",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tsucchi/p5-WebService-Backlog-V2.git",
+         "web" : "https://github.com/tsucchi/p5-WebService-Backlog-V2"
+      }
+   },
    "version" : "0.01"
 }
